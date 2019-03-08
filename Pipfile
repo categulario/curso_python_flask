@@ -9,6 +9,7 @@ verify_ssl = true
 flask = "*"
 flask-coralillo = "*"
 coralillo = "*"
+cursopython = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"

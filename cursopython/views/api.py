@@ -1,13 +1,5 @@
-from flask import jsonify, request
-from main import app
-from models import Dog
-
-
-@app.route("/")
-def hello():
-    return jsonify({
-        'Hola': 'Mundo',
-    })
+from flask import jsonify
+from cursopython import app
 
 
 @app.route("/api/dog")
