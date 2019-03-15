@@ -7,9 +7,9 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-flask-coralillo = "*"
-coralillo = "*"
 cursopython = {editable = true,path = "."}
+gunicorn = "*"
+eventlet = "*"
 
 [requires]
 python_version = "3.7"
